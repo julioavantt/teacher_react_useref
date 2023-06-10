@@ -17,8 +17,9 @@ export const UseRefComoVariable = () => {
       </button>
       <button onClick={handleRef}>
         Actualizo el valor de current pero sólo en consola hasta que actualice
-        el estado <span>{refCounter.current}</span>
+        el estado 
       </button>
+      <mark><h3>refCounter.current: {refCounter.current}</h3></mark>
     </>
   );
 };

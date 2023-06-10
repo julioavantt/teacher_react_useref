@@ -8,6 +8,8 @@ export const UseRefDom = () => {
       <h2>Ejemplo useRef DOM</h2>
       <input ref={inputRef} placeholder="Veamos el focus" />
       <button onClick={() => inputRef.current.focus()}>Enfocar input</button>
+      {console.log(inputRef)}
     </>
   );
 };
+
