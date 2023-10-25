@@ -1,40 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 
 .container {
-  width: 1170px;
-  margin: 0 auto;
+	width: 1170px;
+	margin: 0 auto;
+	padding: 1rem;
 }
 
 button {
-  border: 0;
-  border-radius: 4px;
-  background: #737ade;
-  color: white;
-  font-size: 1.4rem;
-  padding: 1rem;
-  margin: 1rem 1rem 1rem 0;
-  cursor: pointer
+	border: 0;
+	border-radius: 4px;
+	background: #737ade;
+	color: white;
+	font-size: 0.9rem;
+	padding: 1rem;
+	margin: 0.5rem 6rem 0.5rem 0;
+	cursor: pointer;
 }
 
 button span {
-  color: red;
-  font-size: 2rem;
-  font-weight: bolder;
+	color: red;
+	font-size: 2rem;
+	font-weight: bolder;
 }
 
 input {
-  border-radius: 4px;
-  border: 1px solid gray;
-  padding: 1rem;
-  margin-right: 1.5rem;
+	border-radius: 4px;
+	border: 1px solid gray;
+	padding: 1rem;
+	margin-right: 1.5rem;
 }
 
 input:focus {
-  background: yellow;
+	background: yellow;
 }
 
 h2 {
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700;
-  font-size: 4rem;
+	font-family: "Amatic SC", cursive;
+	font-weight: 700;
+	font-size: 4rem;
 }
