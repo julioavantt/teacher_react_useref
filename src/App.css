@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 
+* {
+	font-family: arial;
+}
+
 .container {
 	width: 1170px;
 	margin: 0 auto;

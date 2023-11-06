@@ -1,7 +1,8 @@
 import { useState, useRef } from "react"
 
 export const UseRefComoVariable = () => {
-	const [updateCounter, setUpdateCounter] = useState(false)
+	const [_, setUpdateCounter] = useState(false)
+
 	const refCounter = useRef(0)
 
 	const handleRef = () => {
