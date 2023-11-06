@@ -1,5 +1,7 @@
 import { useState, useRef } from "react"
 
+//! Creamos una variable persistente que no volverá a representar el componente cuando cambie de valor.
+
 export const UseRefComoVariable = () => {
 	const [_, setUpdateCounter] = useState(false)
 
